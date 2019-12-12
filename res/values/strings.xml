@@ -11457,4 +11457,12 @@
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the flashlight</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button flashlight</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle Torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle Torch</string>
+
 </resources>
