@@ -26,7 +26,7 @@
         android:order="0"
         android:layout="@layout/settings_entity_header"
         android:selectable="false"
-        settings:isPreferenceVisible="false"/>
+        settings:isPreferenceVisible="true"/>
 
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
