@@ -48,7 +48,7 @@
     <string name="config_wallpaper_picker_package" translatable="false">com.android.settings</string>
     <string name="config_wallpaper_picker_class" translatable="false">com.android.settings.Settings$WallpaperSettingsActivity</string>
     <!-- Fully-qualified class name for the styles & wallpaper picker activity. -->
-    <string name="config_styles_and_wallpaper_picker_class" translatable="false"></string>
+    <string name="config_styles_and_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
 
     <!-- Manufacturer backup settings to launch -->
     <string name="config_backup_settings_intent" translatable="false"></string>
@@ -218,7 +218,7 @@
     </string>
 
     <!-- Settings intelligence interaction log intent action -->
-    <string name="config_settingsintelligence_log_action" translatable="false"></string>
+    <string name="config_settingsintelligence_log_action" translatable="false">com.android.settings.intelligence.contextualcards.CARD_INTERACTION_RECEIVER</string>
 
     <!-- AOSP Emergency app package name -->
     <string name="config_aosp_emergency_package_name" translatable="false">
@@ -247,7 +247,7 @@
     <string name="config_face_enroll" translatable="false"></string>
 
     <!-- App intent -->
-    <string name="config_account_intent_uri" translatable="false"></string>
+    <string name="config_account_intent_uri" translatable="false">intent:#Intent;action=com.android.settings.action.VIEW_ACCOUNT;category=android.intent.category.DEFAULT;launchFlags=0x8000;S.extra.callingPackageName=com.android.settings;end</string>
 
     <!-- Whether or not the dock settings are to be displayed for this device when docked -->
     <bool name="has_dock_settings">false</bool>
@@ -427,7 +427,7 @@
     <string name="config_nearby_devices_slice_uri" translatable="false">content://com.google.android.gms.nearby.fastpair/device_status_list_item</string>
 
     <!-- Grayscale settings intent -->
-    <string name="config_grayscale_settings_intent" translatable="false"></string>
+    <string name="config_grayscale_settings_intent" translatable="false">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
 
     <!-- List containing the injected tile keys which are suppressed. -->
     <string-array name="config_suppress_injected_tile_keys" translatable="false"/>
