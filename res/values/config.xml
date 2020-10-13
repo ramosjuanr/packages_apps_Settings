@@ -469,4 +469,7 @@
          2 = left side
          3 = right side-->
     <integer name="config_fingerprintSensorLocation">0</integer>
+    
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 </resources>
