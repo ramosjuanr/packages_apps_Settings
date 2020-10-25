@@ -12191,4 +12191,11 @@
     <string name="security_settings_fingerprint_sensor_location_front">front</string>
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+    
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Activate the flashlight</string>
+    <string name="double_tap_power_flashlight_title">Screen off power button flashlight</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle Torch</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle Torch</string>
 </resources>
