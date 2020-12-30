@@ -617,4 +617,7 @@
 
     <!-- Whether to put the apps with system UID into system component bucket or not -->
     <bool name="config_battery_combine_system_components">false</bool>
+
+    <!-- Whether to show the Preference for Touch Sensitivity -->
+    <bool name="config_show_touch_sensitivity">false</bool>
 </resources>
