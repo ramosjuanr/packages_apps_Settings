@@ -34,7 +34,14 @@
             android:summary="@string/lockscreen_bypass_summary"
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" />
-
+	
+	<com.android.settings.aospextended.SystemSettingSwitchPreference
+            android:key="lockscreen_media_art"
+            android:title="@string/lockscreen_media_art_title"
+            android:icon="@drawable/ic_lockscreen_media"
+            android:summary="@string/lockscreen_media_art_summary"
+            android:defaultValue="false" />
+            
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="security_lockscreen_add_users_when_locked"
             android:title="@string/user_add_on_lockscreen_menu"
