@@ -1,9 +1,15 @@
 package com.android.settings.touch;
 
+import static android.provider.Settings.Secure.TOUCH_SENSITIVITY_ENABLED;
+
 import android.content.Context;
 import android.content.IntentFilter;
 import android.os.SystemProperties;
 import android.provider.Settings;
+import com.android.settings.slices.SliceData;
+
+import androidx.preference.Preference;
+import androidx.preference.TwoStatePreference;
 
 import androidx.fragment.app.Fragment;
 
@@ -46,5 +52,16 @@ public class TouchSensitivityPreferenceController extends TogglePreferenceContro
                 TOUCH_SENSITIVITY_ENABLED, isChecked ? ON : OFF);
         SystemProperties.set(TOUCH_SENSITIVITY_PROP, isChecked ? "1" : "0");
         return true;
+    }
+    
+    @Override
+    public boolean isSliceable() {
+        return false;
+    }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        // not needed since it's not sliceable
+        return NO_RES;
     }
 }
