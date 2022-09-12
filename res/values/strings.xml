@@ -44,7 +44,7 @@
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
-    <string name="header_category_wireless_networks">Wireless &amp; networks</string>
+    <string name="header_category_wireless_networks">Wireless &amp; Networks</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
     <string name="header_category_system">System</string>
 
@@ -376,7 +376,7 @@
     <string name="previous_connected_see_all">See all</string>
 
     <!-- Date & time settings screen title -->
-    <string name="date_and_time">Date &amp; time</string>
+    <string name="date_and_time">Date &amp; Time</string>
     <!-- The title of the activity to pick a time zone. -->
     <string name="choose_timezone">Choose time zone</string>
 
@@ -588,7 +588,7 @@
     <!-- Wireless controls settings screen, setting check box label -->
     <string name="airplane_mode">Airplane mode</string>
     <!-- Wireless Settings screen title for things like Wi-Fi, bluetooth, airplane mode. -->
-    <string name="wireless_networks_settings_title">Wireless &amp; networks</string>
+    <string name="wireless_networks_settings_title">Wireless &amp; Networks</string>
     <!-- Main Settings screen settings summary text for the "Wireless controls" setting -->
     <string name="radio_controls_summary">Manage Wi\u2011Fi, Bluetooth, airplane mode, mobile networks, &amp; VPNs</string>
 
@@ -620,7 +620,7 @@
     <string name="sum_carrier_select">Choose a network operator</string>
 
     <!-- Main Settings screen setting option name to go into the date and time settings-->
-    <string name="date_and_time_settings_title">Date &amp; time</string>
+    <string name="date_and_time_settings_title">Date &amp; Time</string>
     <!-- Title for Date & Time settings screen in SetupWizard [CHAR LIMIT=40] -->
     <string name="date_and_time_settings_title_setup_wizard">Set date and time</string>
     <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->
@@ -750,7 +750,7 @@
     <!-- Main Settings screen setting option title for the item to take you to the security screen -->
     <string name="security_settings_title">Security</string>
     <!-- Security Settings screen setting option title for the item to take you to the encryption and credential screen -->
-    <string name="encryption_and_credential_settings_title">Encryption &amp; credentials</string>
+    <string name="encryption_and_credential_settings_title">Encryption &amp; Credentials</string>
     <!-- Security Settings screen Encryption and credential summary -->
     <string name="encryption_and_credential_settings_summary" product="default">Phone encrypted</string>
     <string name="not_encrypted_summary" product="default">Phone not encrypted</string>
@@ -775,7 +775,7 @@
     <string name="security_dashboard_summary">Screen lock, Find My Device, app security</string>
     <!-- TODO(b/208624929): Update to an UX approved title and char limit. -->
     <!-- Main Settings screen setting title for the item that takes you to the safety center [CHAR LIMIT=60] -->
-    <string name="safety_center_title">Security &amp; privacy</string>
+    <string name="safety_center_title">Security &amp; Privacy</string>
     <!-- TODO(b/208624929): Update to an UX approved summary and char limit. -->
     <!-- Main Settings screen setting summary for the item that takes you to the privacy and security settings. [CHAR LIMIT=60] -->
     <string name="safety_center_summary">App security, device lock, permissions</string>
@@ -1853,11 +1853,11 @@
     <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect from all profiles on the device. -->
     <string name="bluetooth_device_context_disconnect">Disconnect</string>
     <!-- Bluetooth settings.  Context menu item for a device.  Action will first pair, and then connect to all profiles on the device. -->
-    <string name="bluetooth_device_context_pair_connect">Pair &amp; connect</string>
+    <string name="bluetooth_device_context_pair_connect">Pair &amp; Connect</string>
     <!-- Bluetooth settings.  Context menu item for a device.  Action will remove pairing with the device. -->
     <string name="bluetooth_device_context_unpair">Unpair</string>
     <!-- Bluetooth settings.  Context menu item for a device.  Action will disconnect and remove pairing with the device. -->
-    <string name="bluetooth_device_context_disconnect_unpair">Disconnect &amp; unpair</string>
+    <string name="bluetooth_device_context_disconnect_unpair">Disconnect &amp; Unpair</string>
     <!-- Bluetooth settings.  Context menu item for a device.  Action will take the user to another screen where they can choose exactly which profiles to connect to. -->
     <string name="bluetooth_device_context_connect_advanced">Options\u2026</string>
     <!-- Bluetooth settings.  Menu option to Bluetooth advanced settings [CHAR LIMIT=20]-->
@@ -2822,7 +2822,7 @@
     <skip/>
     <string name="display_settings_title">Display</string>
     <!-- Sound and vibration settings screen heading. [CHAR LIMIT=30] -->
-    <string name="sound_settings">Sound &amp; vibration</string>
+    <string name="sound_settings">Sound &amp; Vibration</string>
     <!-- DO NOT TRANSLATE Summary placeholder -->
     <string name="summary_placeholder" translatable="false">&#160;</string>
     <!-- DO NOT TRANSLATE Summary placeholder reserving 2 lines -->
@@ -2832,7 +2832,7 @@
     <!-- Sound settings screen, music effects title [CHAR LIMIT=30]-->
     <string name="musicfx_title">Music effects</string>
     <!-- Sound settings screen, setting option name -->
-    <string name="ring_volume_title">Ring &amp; notification volume</string>
+    <string name="ring_volume_title">Ring &amp; Notification volume</string>
     <!-- Sound settings screen, setting option name checkbox -->
     <string name="vibrate_in_silent_title">Vibrate when silent</string>
     <!-- Sound settings screen, setting option name -->
@@ -2869,7 +2869,7 @@
     <!-- Volume description for media volume -->
     <string name="volume_media_description">Music, video, games, &amp; other media</string>
     <!-- Volume description for ringtone and notification volume -->
-    <string name="volume_ring_description">Ringtone &amp; notifications</string>
+    <string name="volume_ring_description">Ringtone &amp; Notifications</string>
     <!-- Volume description for notification volume -->
     <string name="volume_notification_description">Notifications</string>
     <!-- Volume description for alarm volume -->
@@ -3190,7 +3190,7 @@
     <!-- Wallpaper settings title [CHAR LIMIT=30] -->
     <string name="wallpaper_settings_title">Wallpaper</string>
     <!-- Styles & Wallpapers settings title [CHAR LIMIT=30] -->
-    <string name="style_and_wallpaper_settings_title">Wallpaper &amp; style</string>
+    <string name="style_and_wallpaper_settings_title">Wallpaper &amp; Style</string>
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
     <string name="wallpaper_dashboard_summary">Home, lock screen</string>
     <!-- Wallpaper settings summary when default wallpaper is used [CHAR LIMIT=NONE] -->
@@ -3389,7 +3389,7 @@
     <!-- Main settings screen item's title to go into the storage settings screen [CHAR LIMIT=25] -->
     <string name="storage_settings" >Storage</string>
     <!-- Settings title that shows user how much storage and cache space an App is taking [CHAR LIMIT=50] -->
-    <string name="storage_settings_for_app" >Storage &amp; cache</string>
+    <string name="storage_settings_for_app" >Storage &amp; Cache</string>
     <!-- Main settings screen item's title to go into the storage & USB settings screen [CHAR LIMIT=25] -->
     <string name="storage_usb_settings" >Storage</string>
     <!-- Storage settings screen title -->
@@ -3489,7 +3489,7 @@
     <!-- SD card & phone storage settings summary. Displayed when the total memory usage is being calculated. Will be replaced with a number like "12.3 GB" when finished calucating. [CHAR LIMIT=30] -->
     <string name="memory_calculating_size">Calculating\u2026</string>
     <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of applications installed. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
-    <string name="memory_apps_usage">Apps &amp; app data</string>
+    <string name="memory_apps_usage">Apps &amp; App data</string>
     <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of media on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
     <string name="memory_media_usage">Media</string>
     <!-- SD card & phone storage settings title. Displayed as a title when showing the total usage of /sdcard/Download on the device. Below it will be a number like "123.4 MB" indicating used storage. [CHAR LIMIT=50] -->
@@ -3705,7 +3705,7 @@
     </string>
 
     <!-- Next button text of wizard step prompting user to format a storage device [CHAR LIMIT=32] -->
-    <string name="storage_wizard_format_confirm_next">Erase &amp; format</string>
+    <string name="storage_wizard_format_confirm_next">Erase &amp; Format</string>
 
     <!-- In-progress title. This string lets the user know the SD card is being formatted. The user won't be able to proceed with setup until this step is finished. The placeholder is for the name of the device (e.g. brand name of the SD card). [CHAR LIMIT=32] -->
     <string name="storage_wizard_format_progress_title">Formatting <xliff:g id="name" example="SD card">^1</xliff:g>\u2026</string>
@@ -4053,7 +4053,7 @@
     <!-- Tethering controls, item title to go into the tethering settings when USB and Bluetooth tethering are available [CHAR LIMIT=25]-->
     <string name="tether_settings_title_usb_bluetooth">Tethering</string>
     <!-- Tethering controls, item title to go into the tethering settings when USB, Bluetooth and Wifi tethering are available [CHAR LIMIT=60]-->
-    <string name="tether_settings_title_all">Hotspot &amp; tethering</string>
+    <string name="tether_settings_title_all">Hotspot &amp; Tethering</string>
     <!-- Tethering setting summary when both Wi-Fi hotspot and tether are turned on [CHAR LIMIT=NONE]-->
     <string name="tether_settings_summary_hotspot_on_tether_on">Hotspot on, tethering</string>
     <!-- Tethering setting summary when Wi-Fi hotspot is on and tether is off [CHAR LIMIT=NONE]-->
@@ -4332,7 +4332,7 @@
     <!-- About phone settings screen, setting option name to show regulatory labels [CHAR LIMIT=25] -->
     <string name="regulatory_labels">Regulatory labels</string>
     <!-- About phone settings screen, setting option name to show the safety and regulatory manual [CHAR LIMIT=40] -->
-    <string name="safety_and_regulatory_info">Safety &amp; regulatory manual</string>
+    <string name="safety_and_regulatory_info">Safety &amp; Regulatory manual</string>
     <!-- Note: this may be replaced by a more-specific title of the activity that will get launched --> <skip />
     <!-- About phone settings screen, setting option name to see copyright-related info -->
     <string name="copyright_title">Copyright</string>
@@ -4985,15 +4985,15 @@
     <string name="language_input_gesture_summary_off"></string>
 
     <!-- Title of setting on main settings screen.  This item will take the user to the screen to tweak settings realted to locale and text -->
-    <string name="language_settings">Languages&#160;&amp; input</string>
+    <string name="language_settings">Languages&#160;&amp; Input</string>
     <!-- Text displayed when user has restriction DISALLOW_CONFIG_LOCALE [CHAR LIMIT=NONE]-->
     <string name="language_empty_list_user_restricted">You don\u2019t have permission to change the device language.</string>
     <!-- Title of Languages & input settings screen -->
-    <string name="language_keyboard_settings_title">Languages&#160;&amp; input</string>
+    <string name="language_keyboard_settings_title">Languages&#160;&amp; Input</string>
     <!-- Title of preference category that lists all settings about helping user text input such as spell checker [CHAR LIMIT=60]-->
     <string name="input_assistance">Tools</string>
     <!-- On Languages & input settings screen, heading. Inside the "Languages & input settings" screen, this is the header for settings that relate to keyboard (enable/disable each keyboard, settings for each keyboard). -->
-    <string name="keyboard_settings_category">Keyboard &amp; input methods</string>
+    <string name="keyboard_settings_category">Keyboard &amp; Input methods</string>
     <!-- On Text & language settings screen, setting option name. title of the setting to take the user to a screen to select the locale. -->
     <string name="phone_language">Languages</string>
     <!-- On Text & language settings screen, setting option name. summary of the setting to take the user to a screen to select the locale. -->
@@ -5588,7 +5588,7 @@
     <!-- Description for the seekbar that adjust auto click time. [CHAR_LIMIT=NONE] -->
     <string name="accessibility_autoclick_seekbar_desc">Auto click time</string>
     <!-- Title for preference screen for configuring vibrations. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_vibration_settings_title">Vibration &amp; haptics</string>
+    <string name="accessibility_vibration_settings_title">Vibration &amp; Haptics</string>
     <!-- Summary for preference screen for configuring vibrations. [CHAR LIMIT=NONE] -->
     <string name="accessibility_vibration_settings_summary">Control the vibration strength for different usages</string>
     <!-- "Vibration & haptics" preference's state when enabled. This text is shown next to the "Vibration & haptics" preference title. [CHAR LIMIT=NONE] -->
@@ -6994,7 +6994,7 @@
     <!-- Summary for the Backup settings when it is turned off. -->
     <string name="backup_summary_state_off">Off</string>
     <!-- Backup section title -->
-    <string name="backup_section_title">Backup &amp; restore</string>
+    <string name="backup_section_title">Backup &amp; Restore</string>
     <!-- Personal data section title -->
     <string name="personal_data_section_title">Personal data</string>
     <!-- Backup data menu title -->
@@ -7034,7 +7034,7 @@
     <!-- Label for button to uninstall the device admin app [CHAR LIMIT=80] -->
     <string name="uninstall_device_admin">Uninstall app</string>
     <!-- Label for button to deactivate and uninstall the device admin app [CHAR_LIMIT=50]-->
-    <string name="remove_and_uninstall_device_admin">Deactivate &amp; uninstall</string>
+    <string name="remove_and_uninstall_device_admin">Deactivate &amp; Uninstall</string>
     <!-- Label for screen showing to select device admin apps -->
     <string name="select_device_admin_msg">Device admin apps</string>
 
@@ -7176,7 +7176,7 @@
     <string name="header_application_sync_settings">App sync settings</string>
 
     <!-- Header for data and synchronization -->
-    <string name="header_data_and_synchronization">Data &amp; synchronization</string>
+    <string name="header_data_and_synchronization">Data &amp; Synchronization</string>
     <!-- Preference item that lets the user change password -->
     <string name="preference_change_password_title">Change password</string>
     <!-- Header that appears at the top of Account Settings screen -->
@@ -7660,7 +7660,7 @@
     <string name="user_settings_footer_text" product="default">Share your phone by adding new users. Each user has a personal space on your phone for custom Home screens, accounts, apps, settings, and more.</string>
 
     <!-- User settings header for list of users and profiles [CHAR LIMIT=40] -->
-    <string name="user_list_title">Users &amp; profiles</string>
+    <string name="user_list_title">Users &amp; Profiles</string>
     <!-- User settings add user or restricted profile menu [CHAR LIMIT=35] -->
     <string name="user_add_user_or_profile_menu">Add user or profile</string>
     <!-- User settings summary for a restricted profile [CHAR LIMIT=50] -->
@@ -7842,7 +7842,7 @@
 
     <!--  Help URLs for some screens. Not specified here. Specified in product overlays --><skip/>
     <!-- Help menu label [CHAR LIMIT=20] -->
-    <string name="help_label">Help &amp; feedback</string>
+    <string name="help_label">Help &amp; Feedback</string>
 
     <!-- Summary text for support setting tile [CHAR LIMIT=None] -->
     <string name="support_summary" product="default">Help articles, phone &amp; chat</string>
@@ -7852,168 +7852,168 @@
     <string name="support_summary" product="device">Help articles, device &amp; chat</string>
 
     <!-- Help URI, Default [DO NOT TRANSLATE] -->
-    <string name="help_uri_default" translatable="false"></string>
+    <string name="help_uri_default" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;end</string>
     <!-- Help URI, Android beam [DO NOT TRANSLATE] -->
-    <string name="help_uri_beam" translatable="false"></string>
+    <string name="help_uri_beam">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_beam;end</string>
     <!-- Help URI, Display [DO NOT TRANSLATE] -->
-    <string name="help_uri_display" translatable="false"></string>
+    <string name="help_uri_display">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_display;end</string>
     <!-- Help URI, Wallpaper [DO NOT TRANSLATE] -->
-    <string name="help_uri_wallpaper" translatable="false"></string>
+    <string name="help_uri_wallpaper">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wallpaper;end</string>
     <!-- Help URI, Interruptions [DO NOT TRANSLATE] -->
-    <string name="help_uri_interruptions" translatable="false"></string>
+    <string name="help_uri_interruptions">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_zen;end</string>
     <!-- Help URI, Other sounds [DO NOT TRANSLATE] -->
-    <string name="help_uri_other_sounds" translatable="false"></string>
+    <string name="help_uri_other_sounds">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_touch;end</string>
     <!-- Help URI, Notifications [DO NOT TRANSLATE] -->
-    <string name="help_uri_notifications" translatable="false"></string>
+    <string name="help_uri_notifications">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_notification;end</string>
     <!-- Help URI, Apps [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps" translatable="false"></string>
+    <string name="help_uri_apps">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps;end</string>
     <!-- Help URI, manage apps storage [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_storage" translatable="false"></string>
+    <string name="help_uri_apps_storage">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_storage;end</string>
     <!-- Help URI, manage apps power [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_high_power" translatable="false"></string>
+    <string name="help_uri_apps_high_power">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_high_power;end</string>
     <!-- Help URI, manage apps overlay [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_overlay" translatable="false"></string>
+    <string name="help_uri_apps_overlay">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_overlay;end</string>
     <!-- Help URI, manage apps write settings [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_write_settings" translatable="false"></string>
+    <string name="help_uri_apps_write_settings">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_write_settings;end</string>
     <!-- Help URI, manage apps manage sources [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_manage_sources" translatable="false"></string>
+    <string name="help_uri_apps_manage_sources">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_manage_sources;end</string>
     <!-- Help URI, manage apps games [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_games" translatable="false"></string>
+    <string name="help_uri_apps_games">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_games;end</string>
     <!-- Help URI, manage apps wifi access [DO NOT TRANSLATE] -->
-    <string name="help_uri_apps_wifi_access" translatable="false"></string>
+    <string name="help_uri_apps_wifi_access">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_wifi_access;end</string>
     <!-- Help URI, manage apps that have access to all files [DO NOT TRANSLATE] -->
     <string name="help_uri_manage_external_storage" translatable="false"></string>
     <!-- Help URI, manage apps that can modify media files [DO NOT TRANSLATE] -->
     <string name="help_uri_media_management_apps" translatable="false"></string>
     <!-- Help URI, Storage [DO NOT TRANSLATE] -->
-    <string name="help_uri_storage" translatable="false"></string>
+    <string name="help_uri_storage">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_storage;end</string>
     <!-- Help URI, Accessibility [DO NOT TRANSLATE] -->
-    <string name="help_uri_accessibility" translatable="false"></string>
+    <string name="help_uri_accessibility">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility;end</string>
     <!-- Help URI, Vibration [DO NOT TRANSLATE] -->
-    <string name="help_uri_accessibility_vibration" translatable="false"></string>
+    <string name="help_uri_accessibility_vibration">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_vibration;end</string>
     <!-- Help URI, Printing [DO NOT TRANSLATE] -->
-    <string name="help_uri_printing" translatable="false"></string>
+    <string name="help_uri_printing">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_print;end</string>
     <!-- Help URI, About phone [DO NOT TRANSLATE] -->
-    <string name="help_uri_about" translatable="false"></string>
+    <string name="help_uri_about">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about;end</string>
     <!-- Help URI, manage apps that can set alarms and reminders [DO NOT TRANSLATE] -->
     <string name="help_uri_alarms_and_reminders" translatable="false"></string>
 
     <!-- Help URL, WiFi [DO NOT TRANSLATE] -->
-    <string name="help_url_wifi" translatable="false"></string>
+    <string name="help_url_wifi" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wi_fi;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wifi;end</string>
     <!-- Help URL, WiFi Direct [DO NOT TRANSLATE] -->
-    <string name="help_url_wifi_p2p" translatable="false"></string>
+    <string name="help_url_wifi_p2p" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_wi_fi_p2p;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wifi_p2p;end</string>
     <!-- Help URL, Bluetooth [DO NOT TRANSLATE] -->
-    <string name="help_url_bluetooth" translatable="false"></string>
+    <string name="help_url_bluetooth" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_bluetooth;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_bluetooth;end</string>
     <!-- Help URL, Data usage [DO NOT TRANSLATE] -->
-    <string name="help_url_data_usage" translatable="false"></string>
+    <string name="help_url_data_usage" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_data;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_data;end</string>
     <!-- Help URL, Data Saver [DO NOT TRANSLATE] -->
-    <string name="help_url_data_saver" translatable="false"></string>
+    <string name="help_url_data_saver" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_datasaver;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_datasaver;end</string>
     <!-- Help URL, Unrestricted data access [DO NOT TRANSLATE] -->
-    <string name="help_url_unrestricted_data_access" translatable="false"></string>
+    <string name="help_url_unrestricted_data_access" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_unrestricted_data_access;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_unrestricted_data_access;end</string>
     <!-- Help URL, More [DO NOT TRANSLATE] -->
-    <string name="help_url_more_networks" translatable="false"></string>
+    <string name="help_url_more_networks" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_more;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_wireless;end</string>
     <!-- Help URL, Vpn [DO NOT TRANSLATE] -->
-    <string name="help_url_vpn" translatable="false"></string>
+    <string name="help_url_vpn" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_vpn;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_vpn;end</string>
     <!-- Help URL, Sound [DO NOT TRANSLATE] -->
-    <string name="help_url_sound" translatable="false"></string>
+    <string name="help_url_sound" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_sound;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_sound;end</string>
     <!-- Help URL, Battery [DO NOT TRANSLATE] -->
-    <string name="help_url_battery" translatable="false"></string>
+    <string name="help_url_battery" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_battery;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_battery;end</string>
     <!-- Help URL, Battery Defender [DO NOT TRANSLATE] -->
-    <string name="help_url_battery_defender" translatable="false"></string>
+    <string name="help_url_battery_defender" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_batterydefender;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2Fanswer%2F3333708;end</string>
     <!-- Help URL, Accounts [DO NOT TRANSLATE] -->
-    <string name="help_url_accounts" translatable="false"></string>
+    <string name="help_url_accounts" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_accounts;end</string>
     <!-- Help URL, Choose lockscreen [DO NOT TRANSLATE] -->
-    <string name="help_url_choose_lockscreen" translatable="false"></string>
+    <string name="help_url_choose_lockscreen" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lock;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_screenlock;end</string>
     <!-- Help URL, Backup & reset [DO NOT TRANSLATE] -->
-    <string name="help_url_backup_reset" translatable="false"></string>
+    <string name="help_url_backup_reset" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_backup;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_backup;end</string>
     <!-- Help URL, Tethering [DO NOT TRANSLATE] -->
-    <string name="help_url_tether" translatable="false"></string>
+    <string name="help_url_tether" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_tether;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_tether;end</string>
     <!-- Help URL, Dreams [DO NOT TRANSLATE] -->
-    <string name="help_url_dreams" translatable="false"></string>
+    <string name="help_url_dreams" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_daydream;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_dreams;end</string>
     <!-- Help URL, User settings [DO NOT TRANSLATE] -->
-    <string name="help_url_users" translatable="false"></string>
+    <string name="help_url_users" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_users;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_users;end</string>
     <!-- Help URL, Location access [DO NOT TRANSLATE] -->
-    <string name="help_url_location_access" translatable="false"></string>
+    <string name="help_url_location_access" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_location;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_location;end</string>
     <!-- Help URL, Security settings [DO NOT TRANSLATE] -->
-    <string name="help_url_security" translatable="false"></string>
+    <string name="help_url_security" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_security;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_security;end</string>
     <!-- Help URL, Encryption settings [DO NOT TRANSLATE] -->
-    <string name="help_url_encryption" translatable="false"></string>
+    <string name="help_url_encryption">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_encryption_credentials;end</string>
     <!-- Help URL, Install certificate settings [DO NOT TRANSLATE] -->
     <string name="help_url_install_certificate" translatable="false"></string>
     <!-- Help URL, Tap & pay [DO NOT TRANSLATE] -->
-    <string name="help_url_nfc_payment" translatable="false"></string>
+    <string name="help_url_nfc_payment" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_tap_pay;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_nfcpayment;end</string>
     <!-- Help URL, Remote display [DO NOT TRANSLATE] -->
-    <string name="help_url_remote_display" translatable="false"></string>
+    <string name="help_url_remote_display" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_cast;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_remote_display;end</string>
     <!-- Help URL, Face [DO NOT TRANSLATE] -->
-    <string name="help_url_face" translatable="false"></string>
+    <string name="help_url_face">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_face_unlock;end</string>
     <!-- Help URL, Fingerprint [DO NOT TRANSLATE] -->
-    <string name="help_url_fingerprint" translatable="false"></string>
+    <string name="help_url_fingerprint" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_fingerprint;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_fingerprint;end</string>
     <!-- Help URL, Gesture settings -->
-    <string name="help_url_gestures" translatable="false"></string>
+    <string name="help_url_gestures" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_gestures;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_gestures;end</string>
     <!-- Help URL, Manage Storage [DO NOT TRANSLATE]-->
-    <string name="help_url_manage_storage" translatable="false"></string>
+    <string name="help_url_manage_storage">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_manage_storage;end</string>
     <!-- Help URL, Android is upgrading [DO NOT TRANSLATE] -->
-    <string name="help_url_upgrading" translatable="false"></string>
+    <string name="help_url_upgrading">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_upgrading;end</string>
     <!-- Help URL, Font size [DO NOT TRANSLATE] -->
-    <string name="help_url_font_size" translatable="false"></string>
+    <string name="help_url_font_size">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_toggle_font;end</string>
     <!-- Help URL, Display size [DO NOT TRANSLATE] -->
-    <string name="help_url_display_size" translatable="false"></string>
+    <string name="help_url_display_size">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_toggle_display;end</string>
     <!-- Help URL, Auto brightness [DO NOT TRANSLATE] -->
-    <string name="help_url_auto_brightness" translatable="false" />
+    <string name="help_url_auto_brightness" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_auto_brightness;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fmobile%2F%3Fp%3Dsettings_auto_brightness;end</string>
     <!-- Help URL, Adaptive sleep [DO NOT TRANSLATE] -->
-    <string name="help_url_adaptive_sleep" translatable="false" />
+    <string name="help_url_adaptive_sleep">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_adaptive_sleep;end</string>
     <!-- Help URL, Previously connected bluetooth devices [DO NOT TRANSLATE] -->
-    <string name="help_url_previously_connected_devices" translatable="false"></string>
+    <string name="help_url_previously_connected_devices">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_previously_connected_devices;end</string>
     <!-- Help URL, Top level privacy settings [DO NOT TRANSLATE] -->
     <string name="help_url_privacy_dashboard" translatable="false"></string>
 
-    <string name="help_url_network_dashboard" translatable="false"></string>
-    <string name="help_url_connected_devices" translatable="false"></string>
-    <string name="help_url_apps_and_notifications" translatable="false"></string>
-    <string name="help_url_night_display" translatable="false"></string>
-    <string name="help_url_dark_theme" translatable="false"></string>
-    <string name="help_url_screen_saver" translatable="false"></string>
-    <string name="help_url_pickup_gesture" translatable="false"></string>
-    <string name="help_url_storage_dashboard" translatable="false"></string>
-    <string name="help_url_lockscreen" translatable="false"></string>
-    <string name="help_url_trust_agent" translatable="false"></string>
-    <string name="help_url_usage_access" translatable="false"></string>
-    <string name="help_url_screen_pinning" translatable="false"></string>
-    <string name="help_url_user_and_account_dashboard" translatable="false"></string>
-    <string name="help_url_accessibility_shortcut" translatable="false"></string>
-    <string name="help_url_magnification" translatable="false"></string>
-    <string name="help_url_color_correction" translatable="false"></string>
-    <string name="help_url_autoclick" translatable="false"></string>
+    <string name="help_url_network_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_network_dashboard;end</string>
+    <string name="help_url_connected_devices">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_connected_devices;end</string>
+    <string name="help_url_apps_and_notifications">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_apps_and_notifications;end</string>
+    <string name="help_url_night_display">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_night_display;end</string>
+    <string name="help_url_dark_theme" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_dark_theme;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%3Fp%3Dandroid_dark_theme;end</string>
+    <string name="help_url_screen_saver">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_screen_saver;end</string>
+    <string name="help_url_pickup_gesture">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_pickup_gesture;end</string>
+    <string name="help_url_storage_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_storage_dashboard;end</string>
+    <string name="help_url_lockscreen">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_lockscreen_dashboard;end</string>
+    <string name="help_url_trust_agent">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_trust_agent;end</string>
+    <string name="help_url_usage_access">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_usage_access;end</string>
+    <string name="help_url_screen_pinning">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_screen_pinning;end</string>
+    <string name="help_url_user_and_account_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_user_and_account_dashboard;end</string>
+    <string name="help_url_accessibility_shortcut">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_shortcut;end</string>
+    <string name="help_url_magnification">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_magnification;end</string>
+    <string name="help_url_color_correction">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_color_correction;end</string>
+    <string name="help_url_autoclick">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_accessibility_autoclick;end</string>
     <!-- Help URL, Accessibility caption preferences [DO NOT TRANSLATE] -->
-    <string name="help_url_caption" translatable="false"></string>
+    <string name="help_url_caption" translatable="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_captions;end</string>
     <!-- Help URL, Accessibility Timeout [DO NOT TRANSLATE] -->
-    <string name="help_url_timeout" translatable="false"></string>
+    <string name="help_url_timeout">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_time_to_take_action;end</string>
     <!-- Help URL, Accessibility Color Inversion [DO NOT TRANSLATE] -->
-    <string name="help_url_color_inversion" translatable="false"></string>
-    <string name="help_url_system_dashboard" translatable="false"></string>
-    <string name="help_url_double_tap_screen" translatable="false"></string>
-    <string name="help_url_account_detail" translatable="false"></string>
-    <string name="help_url_icc_lock" translatable="false"></string>
+    <string name="help_url_color_inversion">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_color_inversion;end</string>
+    <string name="help_url_system_dashboard">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_system_dashboard;end</string>
+    <string name="help_url_double_tap_screen">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_double_tap_screen;end</string>
+    <string name="help_url_account_detail">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_account_detail;end</string>
+    <string name="help_url_icc_lock">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_icc_lock;end</string>
 
-    <string name="help_uri_process_stats_summary" translatable="false"></string>
-    <string name="help_uri_process_stats_apps" translatable="false"></string>
-    <string name="help_uri_private_dns" translatable="false"></string>
-    <string name="help_uri_about_phone_v2" translatable="false"></string>
-    <string name="help_uri_wifi_calling" translatable="false"></string>
+    <string name="help_uri_process_stats_summary">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_process_stats_summary;end</string>
+    <string name="help_uri_process_stats_apps">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_process_stats_apps;end</string>
+    <string name="help_uri_private_dns">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_private_dns;end</string>
+    <string name="help_uri_about_phone_v2">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about_device;end</string>
+    <string name="help_uri_wifi_calling">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=wifi_calling_settings;end</string>
     <!-- url for the wifi scanning required dialog help page -->
-    <string name="help_uri_wifi_scanning_required" translatable="false"></string>
+    <string name="help_uri_wifi_scanning_required">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=wifi_scanning_required;end</string>
     <!-- url for the bluetooth toggle required dialog help page -->
     <string name="help_uri_bluetooth_screen" translatable="false"></string>
     <!-- url for the SIM combination warning required dialog help page -->
-    <string name="help_uri_sim_combination_warning" translatable="false"></string>
+    <string name="help_uri_sim_combination_warning" formatted="false">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_sim_combination_warning;S.EXTRA_BACKUP_URI=https%3A%2F%2Fsupport.google.com%2Fpixelphone%2F%3Fp%3Dsim_combination_flag;end</string>
     <!-- url for the NFC and payment settings page -->
     <string name="help_uri_nfc_and_payment_settings" translatable="false"></string>
     <!-- url for battery page if battery is not present -->
-    <string name="help_url_battery_missing" translatable="false"></string>
+    <string name="help_url_battery_missing">https://support.google.com/pixelphone/?p=p4xl_battery</string>
     <!-- url for vpn page if connected vpn is not a secure type -->
-    <string name="help_url_insecure_vpn" translatable="false"></string>
+    <string name="help_url_insecure_vpn">https://support.google.com/android/answer/9089766</string>
     <!-- url for learning more about IT admin policy disabling -->
-    <string name="help_url_action_disabled_by_it_admin" translatable="false"></string>
+    <string name="help_url_action_disabled_by_it_admin">https://support.google.com/work/android?p=work_device_help</string>
 
     <!-- User account title [CHAR LIMIT=30] -->
     <string name="user_account_title">Account for content</string>
@@ -8115,7 +8115,7 @@
     <string name="work_sim_title">Work SIM</string>
 
     <!-- User app limits screen title [CHAR LIMIT=35] -->
-    <string name="user_restrictions_title">App &amp; content access</string>
+    <string name="user_restrictions_title">App &amp; Content access</string>
     <!-- User limits screen, user name rename text [CHAR LIMIT=15] -->
     <string name="user_rename">RENAME</string>
     <!-- Preference label for custom restrictions [CHAR LIMIT=35] -->
@@ -8254,7 +8254,7 @@
     </plurals>
 
     <!-- Title for setting tile leading to network and Internet settings [CHAR LIMIT=40]-->
-    <string name="network_dashboard_title">Network &amp; internet</string>
+    <string name="network_dashboard_title">Network &amp; Internet</string>
     <!-- Summary for Network and Internet settings, explaining it contains mobile, wifi setting and data usage settings [CHAR LIMIT=NONE]-->
     <string name="network_dashboard_summary_mobile">Mobile, Wi\u2011Fi, hotspot</string>
     <!-- Summary for Network and Internet settings, explaining it contains wifi and data usage setting [CHAR LIMIT=NONE]-->
@@ -8285,13 +8285,13 @@
     <!-- Summary for Tap & pay settings, explaning a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="nfc_and_payment_settings_no_payment_installed_summary">To use, first install a payment app</string>
     <!-- Title for setting tile leading to Apps & Notification settings [CHAR LIMIT=40]-->
-    <string name="app_and_notification_dashboard_title">Apps &amp; notifications</string>
+    <string name="app_and_notification_dashboard_title">Apps &amp; Notifications</string>
     <!-- Summary for Apps & Notification settings, explaining a few important settings under it [CHAR LIMIT=NONE]-->
     <string name="app_and_notification_dashboard_summary">Recent apps, default apps</string>
     <!-- Toast shown when an app in the work profile attempts to open notification settings. The apps in the work profile cannot access notification settings. [CHAR LIMIT=NONE] -->
     <string name="notification_settings_work_profile">Notification access is not available for apps in the work profile.</string>
     <!-- Title for setting tile leading to saved autofill passwords, autofill, and account settings [CHAR LIMIT=40]-->
-    <string name="account_dashboard_title">Passwords &amp; accounts</string>
+    <string name="account_dashboard_title">Passwords &amp; Accounts</string>
     <!-- Summary for setting tile leading to saved autofill passwords, autofill, and account settings [CHAR LIMIT=NONE]-->
     <string name="account_dashboard_default_summary">Saved passwords, autofill, synced accounts</string>
     <!-- Title for setting tile leading to setting UI which allows user set default app to
@@ -8523,7 +8523,7 @@
     <string name="alarm_volume_option_title">Alarm volume</string>
 
     <!-- Sound: Title for the option managing ring volume. [CHAR LIMIT=30] -->
-    <string name="ring_volume_option_title">Ring &amp; notification volume</string>
+    <string name="ring_volume_option_title">Ring &amp; Notification volume</string>
 
     <!-- Sound: Title for the option managing notification volume. [CHAR LIMIT=30] -->
     <string name="notification_volume_option_title">Notification volume</string>
@@ -9433,7 +9433,7 @@
     <string name="notifications_sent_never">Never</string>
 
     <!-- Sound & notification > Advanced section: Title for managing notification listeners option. [CHAR LIMIT=60] -->
-    <string name="manage_notification_access_title">Device &amp; app notifications</string>
+    <string name="manage_notification_access_title">Device &amp; App notifications</string>
 
     <string name="manage_notification_access_summary">Control which apps and devices can read notifications</string>
 
@@ -10588,7 +10588,7 @@
     <string name="default_for_work">Default for work</string>
 
     <!-- Title for Assist and voice input settings [CHAR LIMIT=30] -->
-    <string name="assist_and_voice_input_title">Assist &amp; voice input</string>
+    <string name="assist_and_voice_input_title">Assist &amp; Voice input</string>
 
     <!-- Title for Default Assist settings [CHAR LIMIT=30] -->
     <string name="default_assist_title">Digital assistant app</string>
@@ -11701,7 +11701,7 @@
     <!-- Setting tab title for all setting options. [CHAR LIMIT=20] -->
     <string name="page_tab_title_summary">All</string>
     <!-- Setting tab title for support setting options. [CHAR LIMIT=25] -->
-    <string name="page_tab_title_support">Tips &amp; support</string>
+    <string name="page_tab_title_support">Tips &amp; Support</string>
 
     <!-- Summary of developer options to set the smallest width of the screen [CHAR LIMIT=60]-->
     <string name="density_pixel_summary" translatable="false"><xliff:g name="count" example="320">%1$s</xliff:g> dp</string>
@@ -11859,7 +11859,7 @@
     <string name="swipe_up_to_switch_apps_suggestion_summary">Turn on the new gesture to switch apps</string>
 
     <!-- Preference title for "Safety & emergency" settings page [CHAR LIMIT=60]-->
-    <string name="emergency_settings_preference_title">Safety &amp; emergency</string>
+    <string name="emergency_settings_preference_title">Safety &amp; Emergency</string>
 
     <!-- Summary for the top level Safety & emergency Settings [CHAR LIMIT=NONE]-->
     <string name="emergency_dashboard_summary">Emergency SOS, medical info, alerts</string>
@@ -12282,10 +12282,10 @@
     <string name="storage_default_internal_storage">This device</string>
 
     <!-- Preference label for the Photos & Videos storage section. [CHAR LIMIT=50] -->
-    <string name="storage_photos_videos">Photos &amp; videos</string>
+    <string name="storage_photos_videos">Photos &amp; Videos</string>
 
     <!-- Preference label for the Music & Audio storage section. [CHAR LIMIT=50] -->
-    <string name="storage_music_audio">Music &amp; audio</string>
+    <string name="storage_music_audio">Music &amp; Audio</string>
 
     <!-- Preference label for the Games storage section. [CHAR LIMIT=50] -->
     <string name="storage_games">Games</string>
@@ -12309,7 +12309,7 @@
     <string name="storage_apps">Apps</string>
 
     <!-- Preference label for the Documents & other storage section. [CHAR LIMIT=50] -->
-    <string name="storage_documents_and_other">Documents &amp; other</string>
+    <string name="storage_documents_and_other">Documents &amp; Other</string>
 
     <!-- Preference label for the System storage section. [CHAR LIMIT=50] -->
     <string name="storage_system">System</string>
@@ -12604,7 +12604,7 @@
     <!-- Title for preference category showing the name of basic info. [CHAR LIMIT=60]-->
     <string name="my_device_info_basic_info_category_title">Basic info</string>
     <!-- Title for preference category showing the name of legal & regulatory. [CHAR LIMIT=60]-->
-    <string name="my_device_info_legal_category_title">Legal &amp; regulatory</string>
+    <string name="my_device_info_legal_category_title">Legal &amp; Regulatory</string>
     <!-- Title for preference category showing the name of device details. [CHAR LIMIT=60]-->
     <string name="my_device_info_device_details_category_title">Device details</string>
     <!-- Title for preference category showing the name of device identifiers. [CHAR LIMIT=60]-->
@@ -12949,7 +12949,7 @@
          subscription in various places in the Settings app. The default name is typically just the
          carrier name, but especially in multi-SIM configurations users may want to use a different
          name. [CHAR LIMIT=40] -->
-    <string name="mobile_network_sim_name">SIM name &amp; color</string>
+    <string name="mobile_network_sim_name">SIM name &amp; Color</string>
     <!-- Label for an item listing the name of the SIM that the user has specified. [CHAR LIMIT=40] -->
     <string name="mobile_network_sim_name_label">Name</string>
     <!-- Label for an item listing the color of the SIM that the user has specified. [CHAR LIMIT=40] -->
@@ -13444,7 +13444,7 @@
     <string name="quick_controls_lower">device controls</string>
 
     <!-- Cards and passes name sentence case [CHAR LIMIT=40] -->
-    <string name="cards_passes_sentence">Cards &amp; passes</string>
+    <string name="cards_passes_sentence">Cards &amp; Passes</string>
 
     <!-- Cards and passes name lower case [CHAR LIMIT=40] -->
     <string name="cards_passes_lower">cards &amp; passes</string>
