@@ -491,10 +491,10 @@
     <string name="config_non_public_slice_query_uri" translatable="false"></string>
 
     <!-- RTT setting intent action -->
-    <string name="config_rtt_setting_intent_action" translatable="false"></string>
+    <string name="config_rtt_setting_intent_action" translatable="false">com.android.dialer.rtt.settings.impl.gateway.ACTION_OPEN_RTT_SETTINGS</string>
 
     <!-- Package name of dialer supports RTT setting-->
-    <string name="config_rtt_setting_package_name" translatable="false"></string>
+    <string name="config_rtt_setting_package_name" translatable="false">com.android.dialer</string>
 
     <!-- Whether nfc detection point preview image is available or not. -->
     <bool name="config_nfc_detection_point">false</bool>
