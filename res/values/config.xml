@@ -220,7 +220,7 @@
     <bool name="config_use_legacy_suggestion">true</bool>
 
     <!-- Whether or not homepage should display user's account avatar -->
-    <bool name="config_show_avatar_in_homepage">false</bool>
+    <bool name="config_show_avatar_in_homepage">true</bool>
 
     <!-- Whether or not emergency info tile should display in device info page -->
     <bool name="config_show_emergency_info_in_device_info">true</bool>
@@ -512,7 +512,7 @@
     <string name="emergency_gesture_settings_package"></string>
 
     <!-- Whether to show the Preference for Adaptive connectivity -->
-    <bool name="config_show_adaptive_connectivity">false</bool>
+    <bool name="config_show_adaptive_connectivity">true</bool>
 
     <!-- Authority of advanced device battery prediction -->
     <string name="config_battery_prediction_authority" translatable="false"></string>
@@ -619,5 +619,5 @@
     <bool name="config_battery_combine_system_components">false</bool>
 
     <!-- Whether to show the Preference for Touch Sensitivity -->
-    <bool name="config_show_touch_sensitivity">false</bool>
+    <bool name="config_show_touch_sensitivity">true</bool>
 </resources>
