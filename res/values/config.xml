@@ -77,18 +77,13 @@
 
     <!-- List containing the component names of pre-installed screen reader services. -->
     <string-array name="config_preinstalled_screen_reader_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        -->
+        <item>com.android.talkback/com.google.android.marvin.talkback.TalkBackService</item>
     </string-array>
 
     <!-- List containing the component names of pre-installed captioning services. -->
     <string-array name="config_preinstalled_captions_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        -->
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.SpeechToTextAccessibilityService</item>
     </string-array>
 
     <!-- List containing the component names of pre-installed audio and captioning services. -->
@@ -101,26 +96,20 @@
 
     <!-- List containing the component names of pre-installed display services. -->
     <string-array name="config_preinstalled_display_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        -->
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
 
     <!-- List containing the component names of pre-installed speech services. -->
     <string-array name="config_preinstalled_speech_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        -->
+        <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity</item>
     </string-array>
 
     <!-- List containing the component names of pre-installed interaction control services. -->
     <string-array name="config_preinstalled_interaction_control_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        -->
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+        <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService</item>
     </string-array>
 
     <!-- List containing the order of services in screen reader category by {@link ComponentName}.
@@ -137,65 +126,55 @@
          {@link ComponentName}. All preference keys in a category need to be specified to guarantee
          correct behavior.-->
     <string-array name="config_order_captions_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
+        <item>live_caption</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.MainActivity</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.scribe.SpeechToTextAccessibilityService</item>
         <item>captioning_preference_screen</item>
         <item>rtt_setting</item>
-        <item>...</item>
-        -->
     </string-array>
 
     <!-- List containing the order of services in audio and caption category by preference key or
          {@link ComponentName}. All preference keys in a category need to be specified to guarantee
          correct behavior.-->
     <string-array name="config_order_audio_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        <item>toggle_primary_mono</item>
-        <item>seekbar_primary_balance</item>
-        <item>...</item>
-        -->
+        <item>toggle_audio_description</item>
+        <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.ui.SoundAmplifierSettingActivity</item>
+        <item>com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.SoundAmplifierService</item>
+        <item>com.google.audio.hearing.visualization.accessibility.scribe/com.google.audio.hearing.visualization.accessibility.dolphin.ui.visualizer.TimelineActivity</item>
+        <item>flash_notifications_preference</item>
+        <item>hearing_aid_preference</item>
+        <item>audio_adjustment_preference_screen</item>
     </string-array>
 
     <!-- List containing the order of services in display category by preference key or
          {@link ComponentName}. All preference keys in a category need to be specified to guarantee
          correct behavior.-->
     <string-array name="config_order_display_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        <item>font_size_preference_screen</item>
-        <item>dark_ui_mode_accessibility</item>
-        <item>...</item>
-        -->
+        <item>text_reading_options</item>
+        <item>color_and_motion</item>
+        <item>reduce_bright_colors_preference</item>
+        <item>magnification_preference_screen</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
     </string-array>
 
     <!-- List containing the order of services in speech category by preference key or
          {@link ComponentName}. All preference keys in a category need to be specified to guarantee
          correct behavior.-->
     <string-array name="config_order_speech_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        <item>font_size_preference_screen</item>
-        <item>dark_ui_mode_accessibility</item>
-        <item>...</item>
-        -->
+        <item>com.google.research.projectrelate/com.google.speech.projectrelate.InitialActivity</item>
     </string-array>
 
     <!-- List containing the order of services in interaction control category by preference key or
          {@link ComponentName}. All preference keys in a category need to be specified to guarantee
          correct behavior.-->
     <string-array name="config_order_interaction_control_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        <item>autoclick_preference</item>
-        <item>toggle_power_button_ends_call_preference</item>
-        <item>...</item>
-        -->
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+        <item>com.google.android.apps.accessibility.voiceaccess/com.google.android.apps.accessibility.voiceaccess.JustSpeakService</item>
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.accessibility.switchaccess/com.android.switchaccess.SwitchAccessService</item>
+        <item>tap_assistance_preference_screen</item>
+        <item>system_controls_preference_screen</item>
+        <item>vibration_preference_screen</item>
     </string-array>
 
     <!-- List of packages that should be allowlisted for slice uri access. Do not translate -->
@@ -264,7 +243,7 @@
 
     <!-- Settings intelligence package name -->
     <string name="config_settingsintelligence_package_name" translatable="false">
-        com.android.settings.intelligence
+        com.google.android.settings.intelligence
     </string>
 
     <!-- Package Installer package name -->
@@ -273,7 +252,7 @@
     </string>
 
     <!-- Settings intelligence interaction log intent action -->
-    <string name="config_settingsintelligence_log_action" translatable="false"></string>
+    <string name="config_settingsintelligence_log_action" translatable="false">com.google.android.settings.intelligence.LOG_BRIDGE</string>
 
     <!-- Whether Settings intelligence supports presenting Slices. -->
     <bool name="config_settingsintelligence_slice_supported">false</bool>
@@ -568,7 +547,7 @@
     <bool name="config_show_adaptive_connectivity">true</bool>
 
     <!-- Authority of advanced device battery prediction -->
-    <string name="config_battery_prediction_authority" translatable="false"></string>
+    <string name="config_battery_prediction_authority" translatable="false">com.google.android.apps.turbo.bluetooth.estimated_time_remaining</string>
 
     <!-- Whether to handle slot change events -->
     <bool name="config_handle_sim_slot_change">false</bool>
