@@ -748,16 +748,16 @@
     <!-- Introduction detail message shown in face enrollment screen in setup wizard. [CHAR LIMIT=NONE] -->
     <string name="security_settings_face_enroll_introduction_message_setup">Use your face to unlock your phone, authorize purchases, or sign in to apps</string>
     <!-- Title of a section on the face enrollment introduction page that provides additional information. [CHAR LIMIT=40] -->
-    <string name="security_settings_face_enroll_introduction_info_title"></string>
+    <string name="security_settings_face_enroll_introduction_info_title">Keep in mind</string>
     <!-- Message on the face enrollment introduction page that provides information about glasses. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_info_glasses"></string>
+    <string name="security_settings_face_enroll_introduction_info_glasses">Glasses or lightly tinted sunglasses are OK.</string>
     <!-- Message on the face enrollment introduction page that provides information about glasses when asking for parental consent. [CHAR LIMIT=NONE] -->
     <string name="security_settings_face_enroll_introduction_info_consent_glasses"></string>
 
     <!-- Title of a section on the face enrollment introduction page that explains how face unlock works. [CHAR LIMIT=40] -->
-    <string name="security_settings_face_enroll_introduction_how_title"></string>
+    <string name="security_settings_face_enroll_introduction_how_title">How it works</string>
     <!-- Title of a section on the face enrollment introduction page that explains privacy controls for face unlock. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_control_title"></string>
+    <string name="security_settings_face_enroll_introduction_control_title">You’re in control</string>
     <!-- Title of a section on the face enrollment introduction page that explains privacy controls for face unlock when asking for parental consent. [CHAR LIMIT=NONE] -->
     <string name="security_settings_face_enroll_introduction_control_consent_title"></string>
     <!-- Title shown in face enrollment dialog [CHAR LIMIT=40] -->
