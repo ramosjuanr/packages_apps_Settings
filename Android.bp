@@ -111,6 +111,7 @@ android_library {
         "androidx.test.rules",
         "telephony_flags_core_java_lib",
         "setupdesign-lottie-loading-layout",
+        "SettingsGoogle-lib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
@@ -166,4 +167,10 @@ android_library_import {
 filegroup {
     name: "Settings_proguard_flags",
     srcs: ["proguard.flags"],
+}
+
+java_import  {
+    name: "SettingsGoogle-lib",
+    sdk_version: "current",
+    jars: ["libs/SettingsGoogle-lib.jar"],
 }
