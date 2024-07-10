@@ -13017,4 +13017,9 @@
 
     <!--Text for Stylus Pointer Icon preference -->
     <string name="show_stylus_pointer_icon">Show pointer while hovering</string>
+    
+    <!-- Display settings screen, increased touch sensitivity settings title [CHAR LIMIT=30] -->
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <!-- Display settings screen, increased touch sensitivity settings summary [CHAR LIMIT=NONE] -->
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
 </resources>
