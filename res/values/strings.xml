@@ -817,7 +817,7 @@
     <!-- Title shown for choose lock options [CHAR LIMIT=22] -->
     <string name="security_settings_fingerprint">Fingerprint</string>
     <!-- Title shown for menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
-    <string name="security_settings_fingerprint_preference_title">Fingerprint</string>
+    <string name="security_settings_fingerprint_preference_title">Pixel Imprint</string>
     <!-- Title for a category shown for the fingerprint settings page, followed by items that the user can toggle on/off to require/disable. [CHAR LIMIT=50] -->
     <string name="security_settings_fingerprint_settings_preferences_category">When using Fingerprint Unlock</string>
     <!-- Title shown for work menu item that launches fingerprint settings or enrollment [CHAR LIMIT=22] -->
@@ -832,11 +832,11 @@
     <!-- message shown in summary field when no fingerprints are registered -->
     <string name="security_settings_fingerprint_preference_summary_none">Setup needed</string>
     <!-- Introduction title shown in fingerprint enrollment to introduce the fingerprint feature [CHAR LIMIT=29] -->
-    <string name="security_settings_fingerprint_enroll_introduction_title">Set up your fingerprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title">Set up Pixel Imprint</string>
     <!-- Introduction title shown in fingerprint enrollment when asking for parental consent for fingerprint unlock [CHAR LIMIT=29] -->
     <string name="security_settings_fingerprint_enroll_consent_introduction_title">Allow fingerprint unlock</string>
     <!-- Introduction title shown in fingerprint enrollment to introduce the fingerprint feature, when fingerprint unlock is disabled by device admin [CHAR LIMIT=40] -->
-    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Use your fingerprint</string>
+    <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Pixel Imprint</string>
     <!-- Learn more text of footer preference for fingerprint settings [CHAR LIMIT=NONE] -->
     <string name="security_settings_fingerprint_settings_footer_learn_more">Learn more about Fingerprint Unlock</string>
     <!-- Introduction title shown in the bottom of fingerprint enrollment dialog [CHAR LIMIT=NONE]-->
@@ -1496,11 +1496,11 @@
     <string name="current_screen_lock">Current screen lock</string>
 
     <!-- Title for preference that guides the user through creating a backup unlock pattern for fingerprint [CHAR LIMIT=45]-->
-    <string name="fingerprint_unlock_set_unlock_pattern">Pattern \u2022 Fingerprint</string>
+    <string name="fingerprint_unlock_set_unlock_pattern">Pixel Imprint + Pattern</string>
     <!-- Title for preference that guides the user through creating a backup unlock PIN for fingerprint [CHAR LIMIT=45]-->
-    <string name="fingerprint_unlock_set_unlock_pin">PIN \u2022 Fingerprint</string>
+    <string name="fingerprint_unlock_set_unlock_pin">Pixel Imprint + PIN</string>
     <!-- Title for preference that guides the user through creating a backup unlock password for fingerprint [CHAR LIMIT=45]-->
-    <string name="fingerprint_unlock_set_unlock_password">Password \u2022 Fingerprint</string>
+    <string name="fingerprint_unlock_set_unlock_password">Pixel Imprint + Password</string>
     <!-- Title for preference that guides the user to skip fingerprint setup [CHAR LIMIT=60]-->
     <string name="fingerprint_unlock_skip_fingerprint">Continue without fingerprint</string>
 
@@ -2721,7 +2721,7 @@
     <!-- Display settings screen, display white balance settings title [CHAR LIMIT=30] -->
     <string name="display_white_balance_title">Display white balance</string>
     <!-- Display settings screen, display white balance settings summary [CHAR LIMIT=NONE] -->
-    <string name="display_white_balance_summary"></string>
+    <string name="display_white_balance_summary">Dynamically adapts the display to warmer or cooler tones based on ambient lighting</string>
     <!-- Display settings screen, setting option name to change Fold setting -->
     <string name="fold_lock_behavior_title">Continue using apps on fold</string>
     <!-- Display settings screen, game default frame rate settings title [CHAR LIMIT=65] -->
