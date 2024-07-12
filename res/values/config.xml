@@ -284,22 +284,22 @@
 
     <!-- Emergency app package name -->
     <string name="config_emergency_package_name" translatable="false">
-        com.android.emergency
+        com.google.android.apps.safetyhub
     </string>
 
     <!-- Emergency app intent action -->
     <string name="config_emergency_intent_action" translatable="false">
-        android.settings.EDIT_EMERGENCY_INFO
+        com.google.android.safetyhub.SAFETY_HUB
     </string>
 
     <!-- Email address for the homepage contextual cards feedback -->
     <string name="config_contextual_card_feedback_email" translatable="false"></string>
 
     <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
-    <string name="config_face_enroll" translatable="false"></string>
+    <string name="config_face_enroll" translatable="false">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollTrampoline</string>
 
     <!-- ComponentName to launch a vendor-specific posture guidance activity if available -->
-    <string name="config_face_enroll_guidance_page" translatable="false"></string>
+    <string name="config_face_enroll_guidance_page" translatable="false">com.android.settings/com.google.android.settings.biometrics.face.FaceEnrollFoldPage</string>
 
     <!-- Whether to support posture listening for face auth, default is 0(DEVICE_POSTURE_UNKNOWN)
      means setting will try listening on device posture changes.
@@ -324,7 +324,7 @@
     <bool name="config_suw_support_face_enroll">true</bool>
 
     <!-- App intent -->
-    <string name="config_account_intent_uri" translatable="false"></string>
+    <string name="config_account_intent_uri" translatable="false">intent:#Intent;action=com.android.settings.action.VIEW_ACCOUNT;category=android.intent.category.DEFAULT;launchFlags=0x8000;S.extra.callingPackageName=com.android.settings;end</string>
 
     <!-- Whether or not the dock settings are to be displayed for this device when docked -->
     <bool name="has_dock_settings">true</bool>
@@ -502,13 +502,13 @@
     <string name="config_nearby_devices_slice_uri" translatable="false">content://com.google.android.gms.nearby.fastpair/device_status_list_item</string>
 
     <!-- BT Slice intent action. To support Settings 2 panel, BT slice can't use PendingIntent.send(). Therefore, here defines the Slice intent action. -->
-    <string name="config_bt_slice_intent_action" translatable="false"></string>
+    <string name="config_bt_slice_intent_action" translatable="false">com.google.android.gms.nearby.discovery.ACTION_LOG_SLICE_AND_LAUNCH_INTENT</string>
     <!-- BT Slice pending intent action. To support Settings 2 panel, BT slice can't use PendingIntent.send(). Therefore, here defines the Slice pending intent action. -->
     <string name="config_bt_slice_pending_intent_action" translatable="false"></string>
     <!-- BT Slice EXTRA_INTENT. To support Settings 2 panel, BT slice can't use PendingIntent.send(). Therefore, here defines the Slice EXTRA_INTENT. -->
-    <string name="config_bt_slice_extra_intent" translatable="false"></string>
+    <string name="config_bt_slice_extra_intent" translatable="false">com.google.android.gms.nearby.discovery.EXTRA_INTENT</string>
     <!-- BT Slice EXTRA_PENDING_INTENT. To support Settings 2 panel, BT slice can't use PendingIntent.send(). Therefore, here defines the Slice EXTRA_PENDING_INTENT. -->
-    <string name="config_bt_slice_extra_pending_intent" translatable="false"></string>
+    <string name="config_bt_slice_extra_pending_intent" translatable="false">com.google.android.gms.nearby.discovery.EXTRA_PENDING_INTENT</string>
 
     <!-- Grayscale settings intent -->
     <string name="config_grayscale_settings_intent" translatable="false"></string>
@@ -538,13 +538,13 @@
     </string-array>
 
     <!-- Uri to query non-public Slice Uris. -->
-    <string name="config_non_public_slice_query_uri" translatable="false"></string>
+    <string name="config_non_public_slice_query_uri" translatable="false">content://com.android.settings.slices/settings_internal_slices</string>
 
     <!-- RTT setting intent action -->
-    <string name="config_rtt_setting_intent_action" translatable="false"></string>
+    <string name="config_rtt_setting_intent_action" translatable="false">com.android.dialer.rtt.settings.impl.gateway.ACTION_OPEN_RTT_SETTINGS</string>
 
     <!-- Package name of dialer supports RTT setting-->
-    <string name="config_rtt_setting_package_name" translatable="false"></string>
+    <string name="config_rtt_setting_package_name" translatable="false">com.android.dialer</string>
 
     <!-- Whether nfc detection point preview image is available or not. -->
     <bool name="config_nfc_detection_point">false</bool>
@@ -781,7 +781,7 @@
     <integer-array name="datausage_hiding_carrier_service_carrier_id" translatable="false"/>
 
     <!-- App locale change intent action-->
-    <string name ="config_app_locale_intent_action" translatable="false" />
+    <string name ="config_app_locale_intent_action" translatable="false">com.google.android.apps.pixel.globalintl.localenotification.action.APP_NOTIFICATION</string>
 
     <!-- Allowed packages to show the confirmation dialog for a system locale suggestion  -->
     <string-array name="allowed_packages_for_locale_confirmation_diallog" translatable="false"/>
