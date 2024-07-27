@@ -72,3 +72,4 @@
 -keep,allowoptimization class com.google.** { *; }
 -keep,allowoptimization class vendor.** { *; }
 -keep,allowoptimization class hardware.google.** { *; }
+-keep,allowoptimization class com.android.wsuinterface.** { *; }
