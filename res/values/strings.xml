@@ -811,7 +811,19 @@
     <string name="security_settings_face_remove_dialog_details_fingerprint_conv">Your face model will be permanently and securely deleted.\n\nAfter deletion, you will need your fingerprint, PIN, pattern, or password to unlock your phone.</string>
     <!-- Subtitle shown for contextual setting face enrollment [CHAR LIMIT=NONE] -->
     <string name="security_settings_face_settings_context_subtitle">Use Face Unlock to unlock your phone</string>
-
+    <string name="security_settings_face_enroll_next">Next</string>
+    <string name="security_settings_face_enroll_partial_message">To improve performance, you can set up Face Unlock again in Settings</string>
+    <string name="security_settings_face_enroll_partial_start_over">Start over</string>
+    <string name="security_settings_face_enroll_partial_title">Face Unlock setup finished</string>
+    <string name="security_settings_face_enroll_timeout_message">Try fast setup instead. Keep in mind, your head may need to be more directly in front of your phone when using Face Unlock.\n\nTo improve performance, you can set up Face Unlock again in Settings.</string>
+    <string name="security_settings_face_enroll_timeout_title">Can’t continue setup</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Try again</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Use fast setup</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Exit setup</string>
+    <string name="security_settings_face_enroll_too_hot_message">Face Unlock setup can’t be completed because the phone is too hot. Try again later when the phone cools down.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Skip Face Unlock</string>
+    <string name="security_settings_face_enroll_too_hot_title">Phone is too hot</string>
+    
     <!-- Fingerprint enrollment and settings --><skip />
     <!-- Note: Update FingerprintEnrollParentalConsent.CONSENT_STRING_RESOURCES when any _consent_ strings are added or removed. -->
     <!-- Title shown for choose lock options [CHAR LIMIT=22] -->
