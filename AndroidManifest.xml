@@ -15,7 +15,11 @@
     <permission
         android:name="com.android.settings.USE_BIOMETRIC_PROVIDER"
         android:protectionLevel="signature|privileged"/>
-
+        
+    <permission
+        android:name="com.google.android.settings.biometrics.face.POSTURE_GUIDANCE"
+        android:protectionLevel="privileged|signature" />
+        
     <uses-permission android:name="android.permission.REQUEST_NETWORK_SCORES" />
     <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
@@ -5135,10 +5139,15 @@
         <activity android:exported="true" android:name="com.google.android.settings.biometrics.face.FaceEnrollTrampoline" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light"/>
         <activity android:exported="false" android:name="com.google.android.settings.biometrics.face.FaceEnrollEnrolling" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light"/>
         <activity android:exported="false" android:name="com.google.android.settings.biometrics.face.FaceEnrollParticipation" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light"/>
-        <activity android:exported="true" android:name="com.google.android.settings.biometrics.face.FaceEnrollConfirmation" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light">
+        <activity
+            android:name="com.google.android.settings.biometrics.face.FaceEnrollConfirmation"
+            android:exported="true"
+            android:permission="com.google.android.settings.biometrics.face.POSTURE_GUIDANCE"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.Settings.Clips">
             <intent-filter>
-                <action android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
