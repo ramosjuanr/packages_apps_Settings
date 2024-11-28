@@ -727,7 +727,7 @@
     <bool name="default_allow_sensitive_lockscreen_content">true</bool>
 
     <!-- Whether to enable the app battery usage list page feature. -->
-    <bool name="config_app_battery_usage_list_enabled">false</bool>
+    <bool name="config_app_battery_usage_list_enabled">true</bool>
 
     <!-- Whether sim related information is visible to the end user. -->
     <bool name="config_show_sim_info">true</bool>
@@ -769,7 +769,7 @@
     <bool name="config_auto_data_switch_enables_cross_sim_calling">false</bool>
 
     <!-- Whether checking adaptive charging to define battery manager visibility. -->
-    <bool name="config_battery_manager_consider_ac">false</bool>
+    <bool name="config_battery_manager_consider_ac">true</bool>
 
     <!-- Whether to display Cloned Apps page in Settings (Settings > Apps > Cloned Apps).-->
     <bool name="config_cloned_apps_page_enabled">false</bool>
@@ -812,6 +812,8 @@
 
     <!-- Whether to disable location toggle for ChromeOS devices-->
     <bool name="config_disable_location_toggle_for_chrome">false</bool>
+    
+    <bool name="config_battery_first_use_date_enabled">true</bool>
 
     <!-- Whether to display pSIM conversion menu in Settings.-->
     <bool name="config_psim_conversion_menu_enabled">false</bool>
