@@ -237,6 +237,14 @@
             <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
         </activity-alias>
 
+		<activity android:exported="true" android:name="com.google.android.settings.notification.ClearCallingSettingsActivity">
+            <intent-filter>
+                <action android:name="com.google.android.settings.notification.CLEAR_CALLING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.settings.notification.ClearCallingSettings"/>
+        </activity>
+        
         <receiver android:name=".SettingsInitialize"
             android:exported="true">
             <intent-filter>
@@ -5284,17 +5292,7 @@
         <activity android:exported="true" android:name="com.google.android.settings.biometrics.face.FaceEnrollTrampoline" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light"/>
         <activity android:exported="false" android:name="com.google.android.settings.biometrics.face.FaceEnrollEnrolling" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light"/>
         <activity android:exported="false" android:name="com.google.android.settings.biometrics.face.FaceEnrollParticipation" android:screenOrientation="portrait" android:theme="@style/SudThemeGlif.Light"/>
-        <activity
-            android:name="com.google.android.settings.biometrics.face.FaceEnrollConfirmation"
-            android:exported="true"
-            android:permission="com.google.android.settings.biometrics.face.POSTURE_GUIDANCE"
-            android:screenOrientation="nosensor"
-            android:theme="@style/Theme.Settings.Clips">
-            <intent-filter>
-                <action android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        
         <activity
             android:name="com.google.android.settings.biometrics.face.FaceEnrollFoldPage"
             android:configChanges="density|keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"

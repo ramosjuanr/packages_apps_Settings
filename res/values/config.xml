@@ -235,6 +235,8 @@
     <!-- Whether or not device header widget tile should display in device info page -->
     <bool name="config_show_device_header_in_device_info">true</bool>
 
+	<string name="config_system_intelligence_package_name">com.google.android.as</string>
+	
     <!-- Whether or not TopLevelSettings should force rounded icon for injected tiles -->
     <bool name="config_force_rounded_icon_TopLevelSettings">false</bool>
 
@@ -250,7 +252,7 @@
     <string name="config_settingsintelligence_log_action" translatable="false">com.google.android.settings.intelligence.LOG_BRIDGE</string>
 
     <!-- Whether Settings intelligence supports presenting Slices. -->
-    <bool name="config_settingsintelligence_slice_supported">false</bool>
+    <bool name="config_settingsintelligence_slice_supported">true</bool>
 
     <!-- Package Installer package name -->
     <string name="config_package_installer_package_name" translatable="false">
