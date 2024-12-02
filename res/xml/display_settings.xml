@@ -143,7 +143,7 @@
         <Preference
             android:key="device_state_auto_rotate"
             android:title="@string/accelerometer_title"
-            android:fragment="com.android.settings.display.DeviceStateAutoRotateDetailsFragment"
+            android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.DeviceStateAutoRotateOverviewController"/>
 
